@@ -13,6 +13,7 @@ import ChartDataLabels from "chartjs-plugin-datalabels";
 import { Country, Dimension, dimensionList } from "../dataset";
 import { kmeans } from "../algorithms/kmeans";
 import { pca } from "../algorithms/pca";
+import { useMemo } from "react";
 
 ChartJS.register(LinearScale, PointElement, Tooltip, Legend, ChartDataLabels);
 
@@ -31,6 +32,9 @@ export type CountryChartOptions = {
   dimensions: Dimension[];
   clusters: number;
   fillNull: boolean;
+};
+
+export type CountryChartStyles = {
   showLabels: boolean;
 };
 
@@ -112,19 +116,24 @@ const generateChartData = ({
 
 export type CountryChartProps = {
   options: CountryChartOptions;
+  styles: CountryChartStyles;
   onSelect?: (selection: { country: Country; position: [number, number] } | null) => void;
 };
 
-export default function CountryChart({ options, onSelect }: CountryChartProps) {
-  const data = generateChartData(options);
+export default function CountryChart({ options, styles, onSelect }: CountryChartProps) {
+  const data = useMemo(() => {
+    return generateChartData(options);
+  }, [options]);
 
-  const palette: string[] = [];
-  const pointColors = data.map(({ cluster }) => {
-    while (cluster >= palette.length) {
-      palette.push(randomColor());
-    }
-    return palette[cluster];
-  });
+  const pointColors = useMemo(() => {
+    const palette: string[] = [];
+    return data.map(({ cluster }) => {
+      while (cluster >= palette.length) {
+        palette.push(randomColor());
+      }
+      return palette[cluster];
+    });
+  }, [data]);
 
   const [min, max] = data.reduce(
     ([min, max], { point: [x, y] }) => {
@@ -132,6 +141,7 @@ export default function CountryChart({ options, onSelect }: CountryChartProps) {
     },
     [-1, 1]
   );
+
   const scale: ScaleOptions = {
     type: "linear",
     min: Math.floor(min * 2) / 2,
@@ -159,7 +169,6 @@ export default function CountryChart({ options, onSelect }: CountryChartProps) {
   };
 
   const chartOptions: ChartOptions<"scatter"> = {
-    animation: false,
     aspectRatio: 1,
     responsive: true,
     scales: { x: scale, y: scale },
@@ -175,7 +184,7 @@ export default function CountryChart({ options, onSelect }: CountryChartProps) {
         },
       },
       datalabels: {
-        display: options.showLabels,
+        display: styles.showLabels,
         color: "black",
         align: "top",
         formatter(_, context) {
