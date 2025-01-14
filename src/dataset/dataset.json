@@ -1,0 +1,1112 @@
+[
+  {
+    "abbr": "AFE",
+    "name": "Africa East",
+    "pdi": 64,
+    "idv": 27,
+    "mas": 41,
+    "uai": 52,
+    "lto": 32,
+    "ind": 40
+  },
+  {
+    "abbr": "AFW",
+    "name": "Africa West",
+    "pdi": 77,
+    "idv": 20,
+    "mas": 46,
+    "uai": 54,
+    "lto": 9,
+    "ind": 78
+  },
+  {
+    "abbr": "ALB",
+    "name": "Albania",
+    "pdi": null,
+    "idv": null,
+    "mas": null,
+    "uai": null,
+    "lto": 61,
+    "ind": 15
+  },
+  {
+    "abbr": "ALG",
+    "name": "Algeria",
+    "pdi": null,
+    "idv": null,
+    "mas": null,
+    "uai": null,
+    "lto": 26,
+    "ind": 32
+  },
+  {
+    "abbr": "AND",
+    "name": "Andorra",
+    "pdi": null,
+    "idv": null,
+    "mas": null,
+    "uai": null,
+    "lto": null,
+    "ind": 65
+  },
+  {
+    "abbr": "ARA",
+    "name": "Arab countries",
+    "pdi": 80,
+    "idv": 38,
+    "mas": 53,
+    "uai": 68,
+    "lto": 23,
+    "ind": 34
+  },
+  {
+    "abbr": "ARG",
+    "name": "Argentina",
+    "pdi": 49,
+    "idv": 46,
+    "mas": 56,
+    "uai": 86,
+    "lto": 20,
+    "ind": 62
+  },
+  {
+    "abbr": "ARM",
+    "name": "Armenia",
+    "pdi": null,
+    "idv": null,
+    "mas": null,
+    "uai": null,
+    "lto": 61,
+    "ind": null
+  },
+  {
+    "abbr": "AUL",
+    "name": "Australia",
+    "pdi": 38,
+    "idv": 90,
+    "mas": 61,
+    "uai": 51,
+    "lto": 21,
+    "ind": 71
+  },
+  {
+    "abbr": "AUT",
+    "name": "Austria",
+    "pdi": 11,
+    "idv": 55,
+    "mas": 79,
+    "uai": 70,
+    "lto": 60,
+    "ind": 63
+  },
+  {
+    "abbr": "AZE",
+    "name": "Azerbaijan",
+    "pdi": null,
+    "idv": null,
+    "mas": null,
+    "uai": null,
+    "lto": 61,
+    "ind": 22
+  },
+  {
+    "abbr": "BAN",
+    "name": "Bangladesh",
+    "pdi": 80,
+    "idv": 20,
+    "mas": 55,
+    "uai": 60,
+    "lto": 47,
+    "ind": 20
+  },
+  {
+    "abbr": "BLR",
+    "name": "Belarus",
+    "pdi": null,
+    "idv": null,
+    "mas": null,
+    "uai": null,
+    "lto": 81,
+    "ind": 15
+  },
+  {
+    "abbr": "BEL",
+    "name": "Belgium",
+    "pdi": 65,
+    "idv": 75,
+    "mas": 54,
+    "uai": 94,
+    "lto": 82,
+    "ind": 57
+  },
+  {
+    "abbr": "BEF",
+    "name": "Belgium French",
+    "pdi": 67,
+    "idv": 72,
+    "mas": 60,
+    "uai": 93,
+    "lto": null,
+    "ind": null
+  },
+  {
+    "abbr": "BEN",
+    "name": "Belgium Netherl",
+    "pdi": 61,
+    "idv": 78,
+    "mas": 43,
+    "uai": 97,
+    "lto": null,
+    "ind": null
+  },
+  {
+    "abbr": "BOS",
+    "name": "Bosnia",
+    "pdi": null,
+    "idv": null,
+    "mas": null,
+    "uai": null,
+    "lto": 70,
+    "ind": 44
+  },
+  {
+    "abbr": "BRA",
+    "name": "Brazil",
+    "pdi": 69,
+    "idv": 38,
+    "mas": 49,
+    "uai": 76,
+    "lto": 44,
+    "ind": 59
+  },
+  {
+    "abbr": "BUL",
+    "name": "Bulgaria",
+    "pdi": 70,
+    "idv": 30,
+    "mas": 40,
+    "uai": 85,
+    "lto": 69,
+    "ind": 16
+  },
+  {
+    "abbr": "BUF",
+    "name": "Burkina Faso",
+    "pdi": null,
+    "idv": null,
+    "mas": null,
+    "uai": null,
+    "lto": 27,
+    "ind": 18
+  },
+  {
+    "abbr": "CAN",
+    "name": "Canada",
+    "pdi": 39,
+    "idv": 80,
+    "mas": 52,
+    "uai": 48,
+    "lto": 36,
+    "ind": 68
+  },
+  {
+    "abbr": "CAF",
+    "name": "Canada French",
+    "pdi": 54,
+    "idv": 73,
+    "mas": 45,
+    "uai": 60,
+    "lto": null,
+    "ind": null
+  },
+  {
+    "abbr": "CHL",
+    "name": "Chile",
+    "pdi": 63,
+    "idv": 23,
+    "mas": 28,
+    "uai": 86,
+    "lto": 31,
+    "ind": 68
+  },
+  {
+    "abbr": "CHI",
+    "name": "China",
+    "pdi": 80,
+    "idv": 20,
+    "mas": 66,
+    "uai": 30,
+    "lto": 87,
+    "ind": 24
+  },
+  {
+    "abbr": "COL",
+    "name": "Colombia",
+    "pdi": 67,
+    "idv": 13,
+    "mas": 64,
+    "uai": 80,
+    "lto": 13,
+    "ind": 83
+  },
+  {
+    "abbr": "COS",
+    "name": "Costa Rica",
+    "pdi": 35,
+    "idv": 15,
+    "mas": 21,
+    "uai": 86,
+    "lto": null,
+    "ind": null
+  },
+  {
+    "abbr": "CRO",
+    "name": "Croatia",
+    "pdi": 73,
+    "idv": 33,
+    "mas": 40,
+    "uai": 80,
+    "lto": 58,
+    "ind": 33
+  },
+  {
+    "abbr": "CYP",
+    "name": "Cyprus",
+    "pdi": null,
+    "idv": null,
+    "mas": null,
+    "uai": null,
+    "lto": null,
+    "ind": 70
+  },
+  {
+    "abbr": "CZE",
+    "name": "Czech Rep",
+    "pdi": 57,
+    "idv": 58,
+    "mas": 57,
+    "uai": 74,
+    "lto": 70,
+    "ind": 29
+  },
+  {
+    "abbr": "DEN",
+    "name": "Denmark",
+    "pdi": 18,
+    "idv": 74,
+    "mas": 16,
+    "uai": 23,
+    "lto": 35,
+    "ind": 70
+  },
+  {
+    "abbr": "DOM",
+    "name": "Dominican Rep",
+    "pdi": null,
+    "idv": null,
+    "mas": null,
+    "uai": null,
+    "lto": 13,
+    "ind": 54
+  },
+  {
+    "abbr": "ECA",
+    "name": "Ecuador",
+    "pdi": 78,
+    "idv": 8,
+    "mas": 63,
+    "uai": 67,
+    "lto": null,
+    "ind": null
+  },
+  {
+    "abbr": "EGY",
+    "name": "Egypt",
+    "pdi": null,
+    "idv": null,
+    "mas": null,
+    "uai": null,
+    "lto": 7,
+    "ind": 4
+  },
+  {
+    "abbr": "ETH",
+    "name": "Ethiopia",
+    "pdi": null,
+    "idv": null,
+    "mas": null,
+    "uai": null,
+    "lto": null,
+    "ind": 46
+  },
+  {
+    "abbr": "SAL",
+    "name": "El Salvador",
+    "pdi": 66,
+    "idv": 19,
+    "mas": 40,
+    "uai": 94,
+    "lto": 20,
+    "ind": 89
+  },
+  {
+    "abbr": "EST",
+    "name": "Estonia",
+    "pdi": 40,
+    "idv": 60,
+    "mas": 30,
+    "uai": 60,
+    "lto": 82,
+    "ind": 16
+  },
+  {
+    "abbr": "FIN",
+    "name": "Finland",
+    "pdi": 33,
+    "idv": 63,
+    "mas": 26,
+    "uai": 59,
+    "lto": 38,
+    "ind": 57
+  },
+  {
+    "abbr": "FRA",
+    "name": "France",
+    "pdi": 68,
+    "idv": 71,
+    "mas": 43,
+    "uai": 86,
+    "lto": 63,
+    "ind": 48
+  },
+  {
+    "abbr": "GEO",
+    "name": "Georgia",
+    "pdi": null,
+    "idv": null,
+    "mas": null,
+    "uai": null,
+    "lto": 38,
+    "ind": 32
+  },
+  {
+    "abbr": "GER",
+    "name": "Germany",
+    "pdi": 35,
+    "idv": 67,
+    "mas": 66,
+    "uai": 65,
+    "lto": 83,
+    "ind": 40
+  },
+  {
+    "abbr": "GEE",
+    "name": "Germany East",
+    "pdi": null,
+    "idv": null,
+    "mas": null,
+    "uai": null,
+    "lto": 78,
+    "ind": 34
+  },
+  {
+    "abbr": "GHA",
+    "name": "Ghana",
+    "pdi": null,
+    "idv": null,
+    "mas": null,
+    "uai": null,
+    "lto": 4,
+    "ind": 72
+  },
+  {
+    "abbr": "GBR",
+    "name": "Great Britain",
+    "pdi": 35,
+    "idv": 89,
+    "mas": 66,
+    "uai": 35,
+    "lto": 51,
+    "ind": 69
+  },
+  {
+    "abbr": "GRE",
+    "name": "Greece",
+    "pdi": 60,
+    "idv": 35,
+    "mas": 57,
+    "uai": 112,
+    "lto": 45,
+    "ind": 50
+  },
+  {
+    "abbr": "GUA",
+    "name": "Guatemala",
+    "pdi": 95,
+    "idv": 6,
+    "mas": 37,
+    "uai": 101,
+    "lto": null,
+    "ind": null
+  },
+  {
+    "abbr": "HOK",
+    "name": "Hong Kong",
+    "pdi": 68,
+    "idv": 25,
+    "mas": 57,
+    "uai": 29,
+    "lto": 61,
+    "ind": 17
+  },
+  {
+    "abbr": "HUN",
+    "name": "Hungary",
+    "pdi": 46,
+    "idv": 80,
+    "mas": 88,
+    "uai": 82,
+    "lto": 58,
+    "ind": 31
+  },
+  {
+    "abbr": "ICE",
+    "name": "Iceland",
+    "pdi": null,
+    "idv": null,
+    "mas": null,
+    "uai": null,
+    "lto": 28,
+    "ind": 67
+  },
+  {
+    "abbr": "IND",
+    "name": "India",
+    "pdi": 77,
+    "idv": 48,
+    "mas": 56,
+    "uai": 40,
+    "lto": 51,
+    "ind": 26
+  },
+  {
+    "abbr": "IDO",
+    "name": "Indonesia",
+    "pdi": 78,
+    "idv": 14,
+    "mas": 46,
+    "uai": 48,
+    "lto": 62,
+    "ind": 38
+  },
+  {
+    "abbr": "IRA",
+    "name": "Iran",
+    "pdi": 58,
+    "idv": 41,
+    "mas": 43,
+    "uai": 59,
+    "lto": 14,
+    "ind": 40
+  },
+  {
+    "abbr": "IRQ",
+    "name": "Iraq",
+    "pdi": null,
+    "idv": null,
+    "mas": null,
+    "uai": null,
+    "lto": 25,
+    "ind": 17
+  },
+  {
+    "abbr": "IRE",
+    "name": "Ireland",
+    "pdi": 28,
+    "idv": 70,
+    "mas": 68,
+    "uai": 35,
+    "lto": 24,
+    "ind": 65
+  },
+  {
+    "abbr": "ISR",
+    "name": "Israel",
+    "pdi": 13,
+    "idv": 54,
+    "mas": 47,
+    "uai": 81,
+    "lto": 38,
+    "ind": null
+  },
+  {
+    "abbr": "ITA",
+    "name": "Italy",
+    "pdi": 50,
+    "idv": 76,
+    "mas": 70,
+    "uai": 75,
+    "lto": 61,
+    "ind": 30
+  },
+  {
+    "abbr": "JAM",
+    "name": "Jamaica",
+    "pdi": 45,
+    "idv": 39,
+    "mas": 68,
+    "uai": 13,
+    "lto": null,
+    "ind": null
+  },
+  {
+    "abbr": "JPN",
+    "name": "Japan",
+    "pdi": 54,
+    "idv": 46,
+    "mas": 95,
+    "uai": 92,
+    "lto": 88,
+    "ind": 42
+  },
+  {
+    "abbr": "JOR",
+    "name": "Jordan",
+    "pdi": null,
+    "idv": null,
+    "mas": null,
+    "uai": null,
+    "lto": 16,
+    "ind": 43
+  },
+  {
+    "abbr": "KOR",
+    "name": "Korea South",
+    "pdi": 60,
+    "idv": 18,
+    "mas": 39,
+    "uai": 85,
+    "lto": 100,
+    "ind": 29
+  },
+  {
+    "abbr": "KYR",
+    "name": "Kyrgyz Rep",
+    "pdi": null,
+    "idv": null,
+    "mas": null,
+    "uai": null,
+    "lto": 66,
+    "ind": 39
+  },
+  {
+    "abbr": "LAT",
+    "name": "Latvia",
+    "pdi": 44,
+    "idv": 70,
+    "mas": 9,
+    "uai": 63,
+    "lto": 69,
+    "ind": 13
+  },
+  {
+    "abbr": "LIT",
+    "name": "Lithuania",
+    "pdi": 42,
+    "idv": 60,
+    "mas": 19,
+    "uai": 65,
+    "lto": 82,
+    "ind": 16
+  },
+  {
+    "abbr": "LUX",
+    "name": "Luxembourg",
+    "pdi": 40,
+    "idv": 60,
+    "mas": 50,
+    "uai": 70,
+    "lto": 64,
+    "ind": 56
+  },
+  {
+    "abbr": "MAC",
+    "name": "Macedonia Rep",
+    "pdi": null,
+    "idv": null,
+    "mas": null,
+    "uai": null,
+    "lto": 62,
+    "ind": 35
+  },
+  {
+    "abbr": "MAL",
+    "name": "Malaysia",
+    "pdi": 104,
+    "idv": 26,
+    "mas": 50,
+    "uai": 36,
+    "lto": 41,
+    "ind": 57
+  },
+  {
+    "abbr": "MLI",
+    "name": "Mali",
+    "pdi": null,
+    "idv": null,
+    "mas": null,
+    "uai": null,
+    "lto": 20,
+    "ind": 43
+  },
+  {
+    "abbr": "MLT",
+    "name": "Malta",
+    "pdi": 56,
+    "idv": 59,
+    "mas": 47,
+    "uai": 96,
+    "lto": 47,
+    "ind": 66
+  },
+  {
+    "abbr": "MEX",
+    "name": "Mexico",
+    "pdi": 81,
+    "idv": 30,
+    "mas": 69,
+    "uai": 82,
+    "lto": 24,
+    "ind": 97
+  },
+  {
+    "abbr": "MOL",
+    "name": "Moldova",
+    "pdi": null,
+    "idv": null,
+    "mas": null,
+    "uai": null,
+    "lto": 71,
+    "ind": 19
+  },
+  {
+    "abbr": "MNG",
+    "name": "Montenegro",
+    "pdi": null,
+    "idv": null,
+    "mas": null,
+    "uai": null,
+    "lto": 75,
+    "ind": 20
+  },
+  {
+    "abbr": "MOR",
+    "name": "Morocco",
+    "pdi": 70,
+    "idv": 46,
+    "mas": 53,
+    "uai": 68,
+    "lto": 14,
+    "ind": 25
+  },
+  {
+    "abbr": "NET",
+    "name": "Netherlands",
+    "pdi": 38,
+    "idv": 80,
+    "mas": 14,
+    "uai": 53,
+    "lto": 67,
+    "ind": 68
+  },
+  {
+    "abbr": "NZL",
+    "name": "New Zealand",
+    "pdi": 22,
+    "idv": 79,
+    "mas": 58,
+    "uai": 49,
+    "lto": 33,
+    "ind": 75
+  },
+  {
+    "abbr": "NIG",
+    "name": "Nigeria",
+    "pdi": null,
+    "idv": null,
+    "mas": null,
+    "uai": null,
+    "lto": 13,
+    "ind": 84
+  },
+  {
+    "abbr": "NOR",
+    "name": "Norway",
+    "pdi": 31,
+    "idv": 69,
+    "mas": 8,
+    "uai": 50,
+    "lto": 35,
+    "ind": 55
+  },
+  {
+    "abbr": "PAK",
+    "name": "Pakistan",
+    "pdi": 55,
+    "idv": 14,
+    "mas": 50,
+    "uai": 70,
+    "lto": 50,
+    "ind": 0
+  },
+  {
+    "abbr": "PAN",
+    "name": "Panama",
+    "pdi": 95,
+    "idv": 11,
+    "mas": 44,
+    "uai": 86,
+    "lto": null,
+    "ind": null
+  },
+  {
+    "abbr": "PER",
+    "name": "Peru",
+    "pdi": 64,
+    "idv": 16,
+    "mas": 42,
+    "uai": 87,
+    "lto": 25,
+    "ind": 46
+  },
+  {
+    "abbr": "PHI",
+    "name": "Philippines",
+    "pdi": 94,
+    "idv": 32,
+    "mas": 64,
+    "uai": 44,
+    "lto": 27,
+    "ind": 42
+  },
+  {
+    "abbr": "POL",
+    "name": "Poland",
+    "pdi": 68,
+    "idv": 60,
+    "mas": 64,
+    "uai": 93,
+    "lto": 38,
+    "ind": 29
+  },
+  {
+    "abbr": "POR",
+    "name": "Portugal",
+    "pdi": 63,
+    "idv": 27,
+    "mas": 31,
+    "uai": 104,
+    "lto": 28,
+    "ind": 33
+  },
+  {
+    "abbr": "PUE",
+    "name": "Puerto Rico",
+    "pdi": null,
+    "idv": null,
+    "mas": null,
+    "uai": null,
+    "lto": 0,
+    "ind": 90
+  },
+  {
+    "abbr": "ROM",
+    "name": "Romania",
+    "pdi": 90,
+    "idv": 30,
+    "mas": 42,
+    "uai": 90,
+    "lto": 52,
+    "ind": 20
+  },
+  {
+    "abbr": "RUS",
+    "name": "Russia",
+    "pdi": 93,
+    "idv": 39,
+    "mas": 36,
+    "uai": 95,
+    "lto": 81,
+    "ind": 20
+  },
+  {
+    "abbr": "RWA",
+    "name": "Rwanda",
+    "pdi": null,
+    "idv": null,
+    "mas": null,
+    "uai": null,
+    "lto": 18,
+    "ind": 37
+  },
+  {
+    "abbr": "SAU",
+    "name": "Saudi Arabia",
+    "pdi": null,
+    "idv": null,
+    "mas": null,
+    "uai": null,
+    "lto": 36,
+    "ind": 52
+  },
+  {
+    "abbr": "SER",
+    "name": "Serbia",
+    "pdi": 86,
+    "idv": 25,
+    "mas": 43,
+    "uai": 92,
+    "lto": 52,
+    "ind": 28
+  },
+  {
+    "abbr": "SIN",
+    "name": "Singapore",
+    "pdi": 74,
+    "idv": 20,
+    "mas": 48,
+    "uai": 8,
+    "lto": 72,
+    "ind": 46
+  },
+  {
+    "abbr": "SLK",
+    "name": "Slovak Rep",
+    "pdi": 104,
+    "idv": 52,
+    "mas": 110,
+    "uai": 51,
+    "lto": 77,
+    "ind": 28
+  },
+  {
+    "abbr": "SLV",
+    "name": "Slovenia",
+    "pdi": 71,
+    "idv": 27,
+    "mas": 19,
+    "uai": 88,
+    "lto": 49,
+    "ind": 48
+  },
+  {
+    "abbr": "SAF",
+    "name": "South Africa",
+    "pdi": null,
+    "idv": null,
+    "mas": null,
+    "uai": null,
+    "lto": 34,
+    "ind": 63
+  },
+  {
+    "abbr": "SAW",
+    "name": "South Africa white",
+    "pdi": 49,
+    "idv": 65,
+    "mas": 63,
+    "uai": 49,
+    "lto": null,
+    "ind": null
+  },
+  {
+    "abbr": "SPA",
+    "name": "Spain",
+    "pdi": 57,
+    "idv": 51,
+    "mas": 42,
+    "uai": 86,
+    "lto": 48,
+    "ind": 44
+  },
+  {
+    "abbr": "SUR",
+    "name": "Suriname",
+    "pdi": 85,
+    "idv": 47,
+    "mas": 37,
+    "uai": 92,
+    "lto": null,
+    "ind": null
+  },
+  {
+    "abbr": "SWE",
+    "name": "Sweden",
+    "pdi": 31,
+    "idv": 71,
+    "mas": 5,
+    "uai": 29,
+    "lto": 53,
+    "ind": 78
+  },
+  {
+    "abbr": "SWI",
+    "name": "Switzerland",
+    "pdi": 34,
+    "idv": 68,
+    "mas": 70,
+    "uai": 58,
+    "lto": 74,
+    "ind": 66
+  },
+  {
+    "abbr": "SWF",
+    "name": "Switzerland French",
+    "pdi": 70,
+    "idv": 64,
+    "mas": 58,
+    "uai": 70,
+    "lto": null,
+    "ind": null
+  },
+  {
+    "abbr": "SWG",
+    "name": "Switzerland German",
+    "pdi": 26,
+    "idv": 69,
+    "mas": 72,
+    "uai": 56,
+    "lto": null,
+    "ind": null
+  },
+  {
+    "abbr": "TAI",
+    "name": "Taiwan",
+    "pdi": 58,
+    "idv": 17,
+    "mas": 45,
+    "uai": 69,
+    "lto": 93,
+    "ind": 49
+  },
+  {
+    "abbr": "TAN",
+    "name": "Tanzania",
+    "pdi": null,
+    "idv": null,
+    "mas": null,
+    "uai": null,
+    "lto": 34,
+    "ind": 38
+  },
+  {
+    "abbr": "THA",
+    "name": "Thailand",
+    "pdi": 64,
+    "idv": 20,
+    "mas": 34,
+    "uai": 64,
+    "lto": 32,
+    "ind": 45
+  },
+  {
+    "abbr": "TRI",
+    "name": "Trinidad and Tobago",
+    "pdi": 47,
+    "idv": 16,
+    "mas": 58,
+    "uai": 55,
+    "lto": 13,
+    "ind": 80
+  },
+  {
+    "abbr": "TUR",
+    "name": "Turkey",
+    "pdi": 66,
+    "idv": 37,
+    "mas": 45,
+    "uai": 85,
+    "lto": 46,
+    "ind": 49
+  },
+  {
+    "abbr": "USA",
+    "name": "U.S.A.",
+    "pdi": 40,
+    "idv": 91,
+    "mas": 62,
+    "uai": 46,
+    "lto": 26,
+    "ind": 68
+  },
+  {
+    "abbr": "UGA",
+    "name": "Uganda",
+    "pdi": null,
+    "idv": null,
+    "mas": null,
+    "uai": null,
+    "lto": 24,
+    "ind": 52
+  },
+  {
+    "abbr": "UKR",
+    "name": "Ukraine",
+    "pdi": null,
+    "idv": null,
+    "mas": null,
+    "uai": null,
+    "lto": 86,
+    "ind": 14
+  },
+  {
+    "abbr": "URU",
+    "name": "Uruguay",
+    "pdi": 61,
+    "idv": 36,
+    "mas": 38,
+    "uai": 100,
+    "lto": 26,
+    "ind": 53
+  },
+  {
+    "abbr": "VEN",
+    "name": "Venezuela",
+    "pdi": 81,
+    "idv": 12,
+    "mas": 73,
+    "uai": 76,
+    "lto": 16,
+    "ind": 100
+  },
+  {
+    "abbr": "VIE",
+    "name": "Vietnam",
+    "pdi": 70,
+    "idv": 20,
+    "mas": 40,
+    "uai": 30,
+    "lto": 57,
+    "ind": 35
+  },
+  {
+    "abbr": "ZAM",
+    "name": "Zambia",
+    "pdi": null,
+    "idv": null,
+    "mas": null,
+    "uai": null,
+    "lto": 30,
+    "ind": 42
+  },
+  {
+    "abbr": "ZIM",
+    "name": "Zimbabwe",
+    "pdi": null,
+    "idv": null,
+    "mas": null,
+    "uai": null,
+    "lto": 15,
+    "ind": 28
+  }
+]
