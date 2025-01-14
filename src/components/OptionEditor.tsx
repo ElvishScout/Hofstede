@@ -47,7 +47,7 @@ export default function OptionEditor({ options: oldOptions, onChange }: OptionEd
                     checked={options.dimensions.includes(dim)}
                     onChange={(ev) => {
                       const dimensions = options.dimensions.filter((value) => value !== dim);
-                      if (ev.currentTarget.checked) {
+                      if (ev.currentTarget.checked || dimensions.length < 2) {
                         dimensions.push(dim);
                       }
                       setOptions({ ...options, dimensions });
