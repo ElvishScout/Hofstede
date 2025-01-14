@@ -10,7 +10,8 @@ export default function App() {
     countries: dataset,
     dimensions: Array.from(dimensionList),
     clusters: 12,
-    fillNull: true,
+    fillNull: false,
+    showLabels: false,
   });
   const containerRef = useRef<HTMLDivElement>(null);
   const [chartKey, setChartKey] = useState(0);

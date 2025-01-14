@@ -19,10 +19,8 @@ function initCentroids(points: Point[], k: number): Point[] {
 
     // 计算总距离
     const totalDistance = distances.reduce((sum, dist) => sum + dist, 0);
-
     // 计算每个点被选为下一个中心点的概率
     const probabilities = distances.map((dist) => dist / totalDistance);
-
     // 计算累积概率
     const cumulProbabilities = probabilities.map((_, i) => {
       return probabilities.slice(0, i + 1).reduce((sum, p) => sum + p, 0);
@@ -78,6 +76,10 @@ function updateCentroids(centroids: Point[], clusters: Point[][]) {
 
 // KMeans 算法实现
 export function kmeans(points: Point[], k: number, maxIterations: number = 100): Point[][] {
+  if (points.length <= k) {
+    return Array.from({ length: k }, (_, i) => (i < points.length ? [points[i]] : []));
+  }
+
   let centroids = initCentroids(points, k);
   let clusters = Array.from({ length: k }, (): Point[] => []);
 

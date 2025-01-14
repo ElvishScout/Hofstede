@@ -90,6 +90,20 @@ export default function OptionEditor({ options: oldOptions, onChange }: OptionEd
           </label>
         </div>
         <div className="mx-1 my-4">
+          <label>
+            <input
+              className="mx-1"
+              type="checkbox"
+              checked={options.showLabels}
+              onChange={(ev) => {
+                const showLabels = ev.currentTarget.checked;
+                setOptions({ ...options, showLabels });
+              }}
+            />
+            <span className="mx-1">Show labels</span>
+          </label>
+        </div>
+        <div className="mx-1 my-4">
           <button
             className="px-2 py-0.5 text-white bg-green-500 rounded-md"
             type="button"

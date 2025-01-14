@@ -31,6 +31,13 @@ export type CountryChartOptions = {
   dimensions: Dimension[];
   clusters: number;
   fillNull: boolean;
+  showLabels: boolean;
+};
+
+type CountryChartData = {
+  point: [number, number];
+  country: Country;
+  cluster: number;
 };
 
 const generateChartData = ({
@@ -38,7 +45,7 @@ const generateChartData = ({
   dimensions,
   clusters: n_clusters,
   fillNull,
-}: CountryChartOptions) => {
+}: CountryChartOptions): CountryChartData[] => {
   countries = countries.sort(({ abbr: ctr1 }, { abbr: ctr2 }) => ctr1.localeCompare(ctr2));
   dimensions = dimensions.sort((dim1, dim2) => dim1.localeCompare(dim2));
 
@@ -48,6 +55,18 @@ const generateChartData = ({
         return country[dim] !== null;
       });
     });
+  }
+
+  if (countries.length === 0) {
+    return [];
+  } else if (countries.length === 1) {
+    return [
+      {
+        point: [0, 0],
+        country: countries[0],
+        cluster: 0,
+      },
+    ];
   }
 
   let dimensionData = countries.map((country) => {
@@ -83,7 +102,7 @@ const generateChartData = ({
     return cluster.map((point) => {
       const index = projectedData.indexOf(point);
       return {
-        point,
+        point: point as [number, number],
         country: countries[index],
         cluster: i,
       };
@@ -111,7 +130,7 @@ export default function CountryChart({ options, onSelect }: CountryChartProps) {
     ([min, max], { point: [x, y] }) => {
       return [Math.min(min, x, y), Math.max(max, x, y)];
     },
-    [Infinity, -Infinity]
+    [-1, 1]
   );
   const scale: ScaleOptions = {
     type: "linear",
@@ -156,7 +175,7 @@ export default function CountryChart({ options, onSelect }: CountryChartProps) {
         },
       },
       datalabels: {
-        display: true,
+        display: options.showLabels,
         color: "black",
         align: "top",
         formatter(_, context) {
