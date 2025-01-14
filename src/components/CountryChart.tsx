@@ -9,11 +9,12 @@ import {
   ChartOptions,
   ScaleOptions,
 } from "chart.js";
+import ChartDataLabels from "chartjs-plugin-datalabels";
 import { Country, Dimension, dimensionList } from "../dataset";
 import { kmeans } from "../algorithms/kmeans";
 import { pca } from "../algorithms/pca";
 
-ChartJS.register(LinearScale, PointElement, Tooltip, Legend);
+ChartJS.register(LinearScale, PointElement, Tooltip, Legend, ChartDataLabels);
 
 const randomColor = () => {
   let r: number, g: number, b: number;
@@ -22,7 +23,7 @@ const randomColor = () => {
     g = Math.floor(Math.random() * 256);
     b = Math.floor(Math.random() * 256);
   } while (((r ^ g) & (r ^ b)) >> 7);
-  return `#${r.toString(16)}${g.toString(16)}${b.toString(16)}`;
+  return `rgb(${r},${g},${b})`;
 };
 
 export type CountryChartOptions = {
@@ -126,7 +127,6 @@ export default function CountryChart({ options, onSelect }: CountryChartProps) {
           return { x, y };
         }),
         pointBackgroundColor: pointColors,
-        pointHoverBackgroundColor: pointColors,
         pointRadius: 4,
         pointHoverRadius: 5,
       },
@@ -153,6 +153,14 @@ export default function CountryChart({ options, onSelect }: CountryChartProps) {
           label() {
             return "";
           },
+        },
+      },
+      datalabels: {
+        display: true,
+        color: "black",
+        align: "top",
+        formatter(_, context) {
+          return data[context.dataIndex].country.name;
         },
       },
     },

@@ -451,7 +451,7 @@
   },
   {
     "abbr": "HOK",
-    "name": "Hong Kong",
+    "name": "Hong Kong (China)",
     "pdi": 68,
     "idv": 25,
     "mas": 57,
@@ -981,7 +981,7 @@
   },
   {
     "abbr": "TAI",
-    "name": "Taiwan",
+    "name": "Taiwan (China)",
     "pdi": 58,
     "idv": 17,
     "mas": 45,

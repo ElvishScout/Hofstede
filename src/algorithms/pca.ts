@@ -24,17 +24,10 @@ export function pca(data: number[][], n: number) {
   const covarianceMatrix = multiply(transpose(standardlizedData), standardlizedData);
   // 计算特征向量
   const { eigenvectors } = eigs(covarianceMatrix);
-
-  const sumValue = eigenvectors.reduce((sum, { value }) => sum + (value as number), 0);
-  eigenvectors.forEach(({ value }) => {
-    console.log((value as number) / sumValue);
-  });
-
   // 选择前 n 个特征向量
   const topEigenVectors = eigenvectors
-    .sort((a, b) => (a.value as number) - (b.value as number))
+    .sort(({ value: v1 }, { value: v2 }) => (v2 as number) - (v1 as number))
     .slice(0, n);
-
   const eigenMat = transpose(matrix(topEigenVectors.map(({ vector }) => vector as MathArray)));
   // 将数据投影到新的低维空间
   const transformedData = multiply(standardlizedData, eigenMat);
