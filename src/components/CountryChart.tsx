@@ -135,17 +135,14 @@ export default function CountryChart({ options, styles, onSelect }: CountryChart
     });
   }, [data]);
 
-  const [min, max] = data.reduce(
-    ([min, max], { point: [x, y] }) => {
-      return [Math.min(min, x, y), Math.max(max, x, y)];
-    },
-    [-1, 1]
-  );
+  const absMax = data.reduce((absMax, { point: [x, y] }) => {
+    return Math.max(absMax, x, y, -x, -y);
+  }, 1);
 
   const scale: ScaleOptions = {
     type: "linear",
-    min: Math.floor(min * 2) / 2,
-    max: Math.ceil(max * 2) / 2,
+    min: Math.floor(-absMax * 2) / 2,
+    max: Math.ceil(absMax * 2) / 2,
     ticks: { stepSize: 0.5 },
   };
 
